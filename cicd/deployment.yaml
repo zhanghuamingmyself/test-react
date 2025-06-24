@@ -15,9 +15,11 @@ spec:
       labels:
         app: zhm-react
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: zhm-react
-          image: 10.101.7.108:80/szhems_demo_prod/zhm-react:v1.0.1
+          image: ccr.ccs.tencentyun.com/tsf_100002806844/zhm-react:v1.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 80

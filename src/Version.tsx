@@ -1,12 +1,10 @@
-import {Button, Grid} from "antd-mobile";
-import {Flex, Image} from "antd";
-import {InputNumber} from 'antd';
-import {useEffect, useState} from "react";
+import {Button} from "antd-mobile";
+import {Flex, Image, InputNumber} from "antd";
 import * as React from "react";
+import {useEffect, useState} from "react";
+import Editor from '@monaco-editor/react';
 
 const baseUrl = "http://localhost:8000/ai"
-
-import Editor from '@monaco-editor/react';
 
 function JSONEditor({value, onChange}) {
 
