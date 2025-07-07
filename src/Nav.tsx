@@ -6,7 +6,7 @@ const Nav = () => {
     const navigate = useNavigate();
     return (
         <div>
-            <Tabs style={{position: "fixed", top: 50, left: 0, width: "100%"}} onChange={(v) => {
+            <Tabs style={{width: "100%"}} onChange={(v) => {
                 navigate(v);
             }}>
                 <Tabs.Tab title='dashboard' key='dashboard'>
