@@ -19,7 +19,8 @@
     "react-dom": "^18.3.1",
     "react-i18next": "^15.0.1",
     "react-loading": "^2.0.3",
-    "react-router-dom": "^6.30.0"
+    "react-router-dom": "^6.30.0",
+    "single-spa-react": "^6.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -39,5 +40,6 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  }
+  },
+  "packageManager": "pnpm@10.5.2+sha1.ca68c0441df195b7e2992f1d1cb12fb731f82d78"
 }
