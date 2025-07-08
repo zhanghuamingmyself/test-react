@@ -19,7 +19,7 @@ export const unmount = reactLifecycles.unmount;
 
 // 独立运行时，正常挂载应用
 if (!window.__MICRO_APP_ENVIRONMENT__) {
-    const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+    const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(<App />);
 }else{
     console.log('微前端环境下，不执行独立运行逻辑')

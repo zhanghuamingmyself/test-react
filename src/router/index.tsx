@@ -4,10 +4,11 @@ import Nav from '../Nav';
 import Version from '../Version.js';
 import {Dashboard} from "../Dashboard.tsx";
 
+
 // 创建路由配置
 const router = createBrowserRouter([
     {
-        path: '/zhm-react/',
+        path:  '/zhm-react/',
         element: <Nav/>,
         children: [
             {
